@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "murugapy_diffusion2d"
+version = "0.0.1"
+description = "2D diffusion PDE solver and plotting (from scipython example)"
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [
+	{ name = "Prasith Basky M", email = "mprasith@gmail.com" }
+	]
+license = { file = "LICENSE" }
+
+dependencies = [
+	"numpy",
+	"matplotlib"
+	]
+urls = { "Repository" = "https://github.com/prasithbasky/diffusion2d" }
