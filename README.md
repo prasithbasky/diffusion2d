@@ -1,16 +1,34 @@
-# diffusion2d
+\# murugapy\_diffusion2d
 
-## Instructions for students
 
-Please follow the instructions in [pypi_exercise.md](https://github.com/Simulation-Software-Engineering/Lecture-Material/blob/main/03_building_and_packaging/pypi_exercise.md).
 
-The code used in this exercise is based on [Chapter 7 of the book "Learning Scientific Programming with Python"](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/).
+2D diffusion equation solver and snapshot plotter. Refactored from the SciPython example.
 
-## Description
 
-## Installing the package
 
-## Running this package
+\## Overview
 
-## Citing
+This package solves the two-dimensional diffusion equation on a square plate with a hot circular disc in the center. It uses finite difference discretization and plots snapshots of the temperature field at selected times.
+
+
+
+\## Usage
+
+```python
+
+from murugapy\_diffusion2d import solve
+
+
+
+\# Use defaults
+
+solve()
+
+
+
+\# Custom parameters
+
+solve(dx=0.05, dy=0.05, D=4.0)
+
+
 
